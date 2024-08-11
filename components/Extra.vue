@@ -24,6 +24,9 @@
           </div>
         </div>
       </div>
+      <h3 class="text-xl w-fit mx-auto mb-14 text-center text-white bg-primary p-2 px-4 rounded-3xl" data-aos="fade-up">
+        Jumlah Peserta 500++ dari Seluruh Indonesia
+      </h3>
     </UContainer>
   </section>
 </template>

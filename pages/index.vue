@@ -7,6 +7,8 @@
     <Prize />
     <Terms />
     <Extra />
+    <Gallery />
+    <Footer />
   </main>
 </template>
 

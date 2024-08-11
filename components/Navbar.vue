@@ -21,11 +21,11 @@ const navItems = [
   },
   {
     label: "Persyaratan",
-    href: "#about"
+    href: "#terms"
   },
   {
     label: "Daftar",
-    href: "http://sibiti.com"
+    href: "http://sibiti.co.id"
   }
 ]
 const scroll = () => {
