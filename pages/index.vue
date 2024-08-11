@@ -4,6 +4,9 @@
     <Banner />
     <About />
     <Timeline />
+    <Prize />
+    <Terms />
+    <Extra />
   </main>
 </template>
 

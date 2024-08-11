@@ -47,7 +47,7 @@ useSeoMeta({
 <style lang="scss">
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 20vh;
+  scroll-padding-top: 5vh;
 }
 
 * {

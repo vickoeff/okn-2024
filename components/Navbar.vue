@@ -22,6 +22,10 @@ const navItems = [
   {
     label: "Persyaratan",
     href: "#about"
+  },
+  {
+    label: "Daftar",
+    href: "http://sibiti.com"
   }
 ]
 const scroll = () => {
@@ -40,7 +44,10 @@ onUnmounted(() => {
     :class="`fixed w-full top-0 left-0 py-2 z-[1024] duration-500 ${scrollY > 300 ? 'backdrop-blur-md' : ''}`">
     <UContainer class="flex flex-row items-center justify-between">
       <ColorScheme>
-        <NuxtImg :src="logo" width="160" />
+        <div class="flex flex-row logo">
+          <NuxtImg :src="logo" width="160" />
+          <NuxtImg src="/header-logo.svg" width="264" class="object-contain" />
+        </div>
         <ul class="flex flex-row">
           <li v-for="item of navItems">
             <NuxtLink :to="item.href">

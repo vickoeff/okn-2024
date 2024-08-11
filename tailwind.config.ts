@@ -19,7 +19,7 @@ export default <Partial<Config>>{
           700: '#201F1E',
           800: '#F1F0EF',
           900: '#2E2D2B',
-          950: '#052E16'
+          950: '#1F2020'
         },
         yellow: {
           50: '#EFFDF5',
@@ -60,7 +60,7 @@ export default <Partial<Config>>{
           700: '#201F1E',
           800: '#F1F0EF',
           900: '#2E2D2B',
-          950: '#052E16'
+          950: '#1F2020'
         },
         yellow: {
           50: '#EFFDF5',

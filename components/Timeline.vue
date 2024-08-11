@@ -63,9 +63,9 @@ const items = Object.keys(timeline).map(item => ({
 </script>
 
 <template>
-  <section id="timeline">
+  <section id="timeline" class="py-32">
     <UContainer>
-      <h2 class="text-4xl mb-14 text-center">Timeline</h2>
+      <h2 class="text-4xl mb-14 text-center" data-aos="fade-left">TIMELINE OKN 2024</h2>
       <UTabs :items="items" :default-index="0">
         <template #default="{ item, index, selected }">
           <span class="truncate" :class="[selected && 'text-primary-500 dark:text-primary-400']"> {{
