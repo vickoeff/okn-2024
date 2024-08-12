@@ -36,7 +36,7 @@ const prize = [
 <template>
   <section id="prize" class="py-32 bg-[url('/prize-bg.svg')] bg-no-repeat bg-fixed bg-yellow-100 dark:bg-grayscale-950">
     <UContainer>
-      <h2 class="text-4xl mb-14 text-center text-white" data-aos="fade-right">Hadiah Acara OKN</h2>
+      <h2 class="text-4xl mb-14 text-center text-white drop-shadow-xl" data-aos="fade-right">Hadiah Acara OKN</h2>
       <UCarousel v-slot="{ item }" :items="prize" :ui="{
         item: 'basis-full mb-14',
         container: 'rounded-lg gap-4'
@@ -50,7 +50,7 @@ const prize = [
         class: '-right-0 dark:bg-gray-900 hidden lg:flex'
       }" arrows class="max-w-6xl mx-auto mt-8" draggable="true" indicators>
         <div
-          class="flex flex-col max-w-2xl mx-auto backdrop-blur-sm p-32 justify-center items-center dark:bg-gray-700 bg-yellow-100 bg-opacity-50 dark:bg-opacity-50 rounded-full">
+          class="flex flex-col max-w-2xl mx-auto backdrop-blur-sm p-4 py-32 lg:p-32 justify-center items-center dark:bg-gray-700 bg-yellow-100 bg-opacity-50 dark:bg-opacity-50 rounded-full">
           <NuxtImg :src="item.img" width="200" class="mb-8" />
           <h2 class="text-4xl mb-4">{{ item.title }}</h2>
           <p class="text-justify">{{ item.description }}</p>
@@ -62,6 +62,6 @@ const prize = [
 
 <style scoped lang="scss">
 #prize {
-  background-size: 100%;
+  background-size: cover;
 }
 </style>

@@ -4,7 +4,7 @@
       <h2 class="text-4xl mb-14 text-center text-white" data-aos="fade-right">
         Biaya Pendaftaran
       </h2>
-      <div class="flex flex-row justify-center gap-4">
+      <div class="flex flex-col lg:flex-row justify-center items-center gap-4">
         <div class="price min-w-40" data-aos="fade-up">
           <div>
             <h3 class="text-grayscale-900 text-xl text-center mb-2">Early Bird</h3>
@@ -25,7 +25,7 @@
         </div>
       </div>
       <h3 class="text-xl w-fit mx-auto mb-14 text-center text-white bg-primary p-2 px-4 rounded-3xl" data-aos="fade-up">
-        Jumlah Peserta 500++ dari Seluruh Indonesia
+        Jumlah Peserta <b>500++</b> dari Seluruh Indonesia
       </h3>
     </UContainer>
   </section>
